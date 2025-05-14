@@ -173,6 +173,22 @@ e.g.,
 
 ---
 
+# Comfort with Rust
+
+“How comfortable do you feel writing code in Rust?”
+
+.center[.p80[![Comfortable](./images/comfortable.png)]]
+
+---
+
+# Company size
+
+“If you use Rust at work, how large is your company?"
+
+.center[.p60[![Company Size](./images/CompanySize.png)]]
+
+---
+
 # Domains
 
 “In what domains do you use Rust?”
@@ -186,6 +202,32 @@ e.g.,
 | Machine learning or AI | 477 |
 | I don't use Rust | 249 |
 | Other | ... |
+
+---
+name: domain-correlation
+
+# Domain correlation
+
+![Domains](./images/domains-for-rust.png)
+
+---
+template: domain-correlation
+
+.abspos.top250.left160.rotNW[.arrowbig[![CLI](./images/Arrow.png)]]
+
+---
+template: domain-correlation
+
+.abspos.top425.left180.rotNW[.arrowbig[![CLI](./images/Arrow.png)]]
+
+---
+template: domain-correlation
+
+.abspos.top330.left150.rotNW[.arrowbig[![CLI](./images/Arrow.png)]]
+
+---
+template: domain-correlation
+
 
 ---
 
@@ -213,19 +255,13 @@ For projects that you have not used Rust for, what programming language did you 
 
 ---
 
-# Comfort with Rust
+# Correlations
 
-“How comfortable do you feel writing code in Rust?”
-
-.center[.p60[![Comfortable](./images/comfortable.png)]]
+![Which languages instead of Rust](./images/which-languages-instead-of-rust.png)
 
 ---
 
-# Company size
-
-“If you use Rust at work, how large is your company?"
-
-.center[.p60[![Company Size](./images/CompanySize.png)]]
+# Other prog lang
 
 ---
 
@@ -303,7 +339,7 @@ For projects that you have not used Rust for, what programming language did you 
 
 # Watch out for the unexpected
 
-> 
+> I couldn't work out how to specify the type of the first variable after a few hours of work. I worried I was going senile and gave Rust up. Several months later I tried again with a different small problem and found it simple, and was delighted by my experience, and immediately resolved to switch all my future development to Rust. 
 
 ---
 

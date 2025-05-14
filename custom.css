@@ -608,6 +608,10 @@ blockquote p {
   width: 50px;
 }
 
+.arrowbig img {
+  width: 100px;
+}
+
 .speech-bubble {
   position: relative;
   border-radius: .4em;
