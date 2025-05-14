@@ -2,7 +2,7 @@ class: center
 name: title
 count: false
 
-# "Our Vision for Rust"
+# "The Rust Vision Doc and You"
 
 ## RustWeek 2025 Project Track
 
@@ -60,16 +60,15 @@ Amazon bet big on Java and it paid off
 
 # Research questions
 
-## About Rust
+## Rust the **product**
 
 * "What is Rust's mission?"
 * "What do people value most in Rust? When do they choose to use Rust and why?"
 * "What would help Rust to succeed in domain X?"
-* "What would help Rust to succeed in area X?"
 
 --
 
-## About how we build Rust
+## Rust the **organization**
 
 * "How can we tap into the knowledge, experience, and enthusiasm of a growing Rust userbase to improve Rust?"
 * "How can we make contributing to Rust **joyful?**"
@@ -94,6 +93,21 @@ Amazon bet big on Java and it paid off
 
 # Idea: Northstar RFC
 
+e.g.,
+
+* **Title:** "Async Rust"
+* **Goal:** "Async is a superset of Rust"
+* **Design axioms:**
+    * **Zero-cost abstractions:** Needs to be competitive with handwritten C code in performance.
+    * **Top to bottom:** Needs to scale up from embedded to big iron servers.
+    * **Just add async:** You should be able to take sync Rust code, adding async/await, and have the code run as normal.
+
+Would *establish* a flagship goal and a champion. 
+
+.footnote[
+    I put ~zero thought into this, so don't worry about the wording, just to give the idea.
+]
+
 ---
 
 # Methodology
@@ -106,7 +120,7 @@ Amazon bet big on Java and it paid off
 * "Coding"
 
 --
-* ...
+* Quantitative assessment
 
 --
 * **Blindingly brilliant _INSIGHT!_**
@@ -227,18 +241,71 @@ For projects that you have not used Rust for, what programming language did you 
 
 ---
 
-# Some interesting themes
+# Coding
 
-* Attempting then coming back
-* Improving programming in other languages
-* Language has improved considerably
-* Learned Rust to replace another language (e.g. Python, C++)
-* Very often only a couple weeks until productive (but there is a longer tail to a year)
-* Often recommended by a friend
+* Read over the free text
+* Extract notable comments
+* Identify common themes
 
 ---
 
-# Interviews
+# Example 1
+
+> Developing an intuitive understanding of the borrow checker was difficult, and on the other hand, multi-threaded code is far easier to write in Rust. Furthermore, it feels like writing multi-threaded code in Rust makes me more able to write correct multi-threaded code in other languages like C.
+
+---
+
+# Coding
+
+## Start with broad categories...
+
+* Hard to learn
+* Easy to learn
+* Hope for the future
+* Fear for the future
+* Like about Rust
+* Dislike about Rust
+
+---
+
+# Coding
+
+## Start with broad categories...
+
+* Hard to learn
+    * "Developing an intuitive understanding of the borrow checker was difficult"
+* Easy to learn
+* Hope for the future
+* Fear for the future
+* Like about Rust
+    * "multi-threaded code is far easier to write in Rust"
+    * "it feels like writing multi-threaded code in Rust makes me more able to write correct multi-threaded code in other languages like C"
+* Dislike about Rust
+
+---
+
+# Coding
+
+## ...and get more detailed
+
+* Hard to learn
+    * Borrow checker
+    * Higher ranked trait bounds
+    * Systems-level programming concepts
+    * ...
+
+---
+
+# Different levels of detail
+
+* Big themes that are hard
+    * "Borrow checker"
+        * "Developing an intuitive understanding of the borrow checker was difficult"
+        * ...
+
+---
+
+# Going deeper with interviews
 
 * 30-45 minutes
 * Focus:
@@ -248,11 +315,11 @@ For projects that you have not used Rust for, what programming language did you 
 
 ---
 
-# Coding
+# Next steps
 
----
-
-# **Blindingly brilliant _INSIGHT!_**
+* Assessing quantitatively
+    * Have to think about how to do this
+* Blindingly brilliant _INSIGHT!_
 
 ---
 
