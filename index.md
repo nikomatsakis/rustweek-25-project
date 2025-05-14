@@ -250,16 +250,6 @@ template: domain-correlation
 .abspos.top330.left150.rotNW[.arrowbig[![CLI](./images/Arrow.png)]]
 
 ---
-template: domain-correlation
-
-
---
-
-.arrow.abspos.top490.left0[![Arrow](./images/Arrow.png)]
-
-.abspos.top500.left120[.speech-bubble.barbara.left[High overlap with<br>"I do not use Rust"]]
-
----
 
 # Free form questions
 
