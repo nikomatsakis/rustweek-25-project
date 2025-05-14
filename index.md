@@ -173,6 +173,14 @@ e.g.,
 
 ---
 
+# Company size
+
+“If you use Rust at work, how large is your company?"
+
+.center[.p60[![Company Size](./images/CompanySize.png)]]
+
+---
+
 # Comfort with Rust
 
 “How comfortable do you feel writing code in Rust?”
@@ -181,11 +189,27 @@ e.g.,
 
 ---
 
-# Company size
+# Comfort level by region
 
-“If you use Rust at work, how large is your company?"
+.center[.p80[![Comfortable](./images/comfort-level-by-region.png)]]
 
-.center[.p60[![Company Size](./images/CompanySize.png)]]
+---
+
+# Other prog lang
+
+For projects that you have not used Rust for, what programming language did you use instead?
+
+| Language | Number |
+| --- | --- |
+| Python (or similar) | 2894 |
+| JavaScript / TypeScript | 1977 |
+| C++ | 1603 |
+| C | 1522 |
+| Java or C# | 1437 |
+| Bash | 1219 |
+| Go | 981 |
+| Only Rust | 280 |
+| Other | ... |
 
 ---
 
@@ -229,39 +253,11 @@ template: domain-correlation
 template: domain-correlation
 
 
----
-
-# Other prog lang
-
-For projects that you have not used Rust for, what programming language did you use instead?
-
-| Language | Number |
-| --- | --- |
-| Python (or similar) | 2894 |
-| JavaScript / TypeScript | 1977 |
-| C++ | 1603 |
-| C | 1522 |
-| Java or C# | 1437 |
-| Bash | 1219 |
-| Go | 981 |
-| Only Rust | 280 |
-| Other | ... |
-
 --
 
 .arrow.abspos.top490.left0[![Arrow](./images/Arrow.png)]
 
 .abspos.top500.left120[.speech-bubble.barbara.left[High overlap with<br>"I do not use Rust"]]
-
----
-
-# Correlations
-
-![Which languages instead of Rust](./images/which-languages-instead-of-rust.png)
-
----
-
-# Other prog lang
 
 ---
 
