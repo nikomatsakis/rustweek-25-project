@@ -274,13 +274,9 @@ For projects that you have not used Rust for, what programming language did you 
 
 * Hard to learn
     * "Developing an intuitive understanding of the borrow checker was difficult"
-* Easy to learn
-* Hope for the future
-* Fear for the future
 * Like about Rust
     * "multi-threaded code is far easier to write in Rust"
     * "it feels like writing multi-threaded code in Rust makes me more able to write correct multi-threaded code in other languages like C"
-* Dislike about Rust
 
 ---
 
@@ -305,6 +301,12 @@ For projects that you have not used Rust for, what programming language did you 
 
 ---
 
+# Watch out for the unexpected
+
+> 
+
+---
+
 # Going deeper with interviews
 
 * 30-45 minutes
@@ -312,6 +314,7 @@ For projects that you have not used Rust for, what programming language did you 
     * ask questions, let the user guide you
     * no wrong answers
     * Fun and...a bit challenging too
+* *Looking for people who might want to help*
 
 ---
 
@@ -329,4 +332,4 @@ For projects that you have not used Rust for, what programming language did you 
 * We are happy to have help
     * Thu morning coding session!
     * Come be an interviewer!
-    * Talk to me or Jack!
+    * Talk to Niko or Jack!
