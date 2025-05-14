@@ -6,9 +6,8 @@ count: false
 
 ## RustWeek 2025 Project Track
 
-.p60[![Ferris](./images/ferris.svg)]
+.center[Nicholas Matsakis, Jack Huey, Tim McNamara]
 
-.me[.grey[*by* **Nicholas Matsakis**]]
 .left[.citation[View slides at `https://nikomatsakis.github.io/rustweek-25-project/`]]
 
 ---
@@ -221,7 +220,9 @@ For projects that you have not used Rust for, what programming language did you 
 | Question | Responses |
 | --- | --- |
 | “How did you first get started using Rust? What was your experience like?” | 2610 |
+| &nbsp; | |
 | “What kinds of projects do you find to be a good fit for Rust and why? What do you find NOT to be a good fit?” | 2542 |
+| &nbsp; | |
 | “Is there anything that you found particularly challenging (or easy!) when learning or using Rust?” | 2435 |
 
 ---
